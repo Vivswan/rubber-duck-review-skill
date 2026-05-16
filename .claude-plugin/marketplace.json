@@ -1,0 +1,22 @@
+{
+  "name": "vivswan-skills",
+  "owner": {
+    "name": "Vivswan Shah",
+    "email": "58091053+Vivswan@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Public repository for agent skills and plugin-ready workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rubber-duck-review",
+      "description": "Cross-model code review using a second agent, tool, or read-only CLI fallback",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/rubber-duck-review"
+      ]
+    }
+  ]
+}

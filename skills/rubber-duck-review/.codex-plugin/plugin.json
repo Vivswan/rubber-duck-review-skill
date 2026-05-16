@@ -1,0 +1,38 @@
+{
+  "name": "rubber-duck-review",
+  "version": "1.0.0",
+  "description": "Cross-model code review using a second agent, tool, or read-only CLI fallback.",
+  "author": {
+    "name": "Vivswan Shah",
+    "email": "58091053+Vivswan@users.noreply.github.com",
+    "url": "https://github.com/Vivswan"
+  },
+  "homepage": "https://github.com/Vivswan/skills/tree/main/skills/rubber-duck-review",
+  "repository": "https://github.com/Vivswan/skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "code-review",
+    "rubber-duck",
+    "plugin-ready"
+  ],
+  "skills": "./",
+  "interface": {
+    "displayName": "Rubber Duck Review",
+    "shortDescription": "Get a second opinion from another model.",
+    "longDescription": "Launches a read-only review pass with another model or tool and folds the findings back into the main task.",
+    "developerName": "Vivswan",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Review"
+    ],
+    "websiteURL": "https://github.com/Vivswan/skills/tree/main/skills/rubber-duck-review",
+    "defaultPrompt": [
+      "Rubber duck this change before we merge it.",
+      "Get a second opinion on this refactor.",
+      "Review this patch with another model."
+    ],
+    "brandColor": "#0F766E"
+  }
+}
